@@ -1,0 +1,59 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$amarelo: #facc4d;
+$grey: #5c5c5c;
+$blue: #3973ad;
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  display: block;
+  padding: 5px 20px;
+}
+
+div {
+  width: 700px;
+  padding: 10px;
+  margin: 30px 5px;
+}
+
+.answer, .ask {
+  border-left: 10px solid $grey;
+}
+
+p {
+  display: block;
+  font-size: 25px;
+}
+
+.type {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.answer {
+  background-color: $amarelo;
+}
+
+#ask {
+  font-size: 20px;
+}
+
+#entrada {
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#botao {
+  background-color: $blue;
+  height: 36px;
+  width: 60px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: beige;
+}
